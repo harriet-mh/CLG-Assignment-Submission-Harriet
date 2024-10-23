@@ -1,0 +1,160 @@
+body {
+    background-color: #E6E6E6;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: #E6E6E6;
+    font-family: "EB Garamond", serif;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 0px 10px;
+    margin: 5px 10px;
+}
+
+h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+#header {
+    background-color: #297373;
+    padding: 10px;
+    background-image: url(assets/grid2.png);
+    background-size: contain;
+    background-repeat: repeat;
+    position: sticky;
+    top: 0px;
+}
+
+#header p {
+    color: #E6E6E6;
+    font-family: "Onest", sans-serif;
+    background-color: #39393A;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 10px;
+    width: fit-content;
+}
+
+.body {
+    padding: 10px;
+    color: #39393A;
+}
+
+.orangeContainer {
+    background-color: #FF8552;
+    color: #39393A;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    width:40%;
+    border-radius: 10px;
+}
+
+.orangeContainer p span {
+    background-color: #297373;
+    color: #E6E6E6;
+}
+
+.greenContainer {
+    background-color: #297373;
+    color: #E6E6E6;
+    padding: 10px;
+    margin: 20px;
+    display: inline-block;
+    width:40%;
+    border-radius: 10px;
+}
+
+.greenContainer p span {
+    background-color: #FF8552;
+    color: #39393A;
+}
+
+a {
+    color: #E6E6E6;
+    font-family: "Onest", sans-serif;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color:#39393A;
+}
+
+.button {
+    background-color: #39393A;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: #39393A 2px solid;
+    color:#E6E6E6;
+    display: inline-block;
+    width: auto;
+}
+
+.button:hover {
+    background-color: #E6E6E6;
+    border: #39393A 2px solid;
+    color: #39393A;
+    display: inline-block;
+    width: auto;
+}
+
+#introHeading {
+    text-decoration: underline solid #297373;
+}
+
+#introBody span {
+    color: #297373;
+    font-weight: 600;
+}
+
+#absoluteTest {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: fit-content;
+}
+
+#relativeTest {
+    position: relative;
+    right: -100px;
+    top: 0;
+    background-color: #39393A;
+    color: #FF8552;
+    border-radius: 10px;
+}
+
+#fixedTest {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.photoContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(https://images.pexels.com/photos/28830598/pexels-photo-28830598/free-photo-of-hot-air-balloons-over-serengeti-plains-at-dawn.jpeg);
+    background-size: cover;
+    color: #E6E6E6;
+    padding: 10px;
+    margin: 20px;
+    width:40%;
+    border-radius: 10px;
+}
